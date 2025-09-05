@@ -1,16 +1,16 @@
-# CPU-only PyTorch
-torch==2.8.0+cpu
-torchvision==0.23.0+cpu
-torchaudio==2.8.0+cpu
+# PyTorch CPU version that supports Python 3.13
+torch==2.8.1
+torchvision==0.15.2
+torchaudio==2.8.1
 -f https://download.pytorch.org/whl/torch_stable.html
 
-# App
+# Streamlit
 streamlit==1.49.1
 
-# Data & ML
-numpy==2.3.2
-pandas==2.3.2
-scikit-learn==1.7.1
-matplotlib==3.10.6
-Pillow==11.3.0
-tqdm==4.67.1
+# ML / Data
+numpy
+pandas
+scikit-learn
+matplotlib
+Pillow
+tqdm
