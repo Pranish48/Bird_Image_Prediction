@@ -46,7 +46,7 @@ def predict_image(image):
 
 st.title("🐦 Bird Species Predictor")
 st.write("Upload an image of a bird and the model will predict its species.")
-st.write("Works well with North American Birds ("CUB-200-2011"))
+st.write("Works well with North American Birds -CUB-200-2011")
 
 # File uploader
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
