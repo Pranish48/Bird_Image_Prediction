@@ -1,21 +1,16 @@
-# PyTorch CPU-only
+# CPU-only PyTorch
 torch==2.8.0+cpu
 torchvision==0.23.0+cpu
 torchaudio==2.8.0+cpu
 -f https://download.pytorch.org/whl/torch_stable.html
 
-# Web / app
+# App
 streamlit==1.49.1
 
-# Data & computation
+# Data & ML
 numpy==2.3.2
 pandas==2.3.2
 scikit-learn==1.7.1
 matplotlib==3.10.6
-pillow==11.3.0
+Pillow==11.3.0
 tqdm==4.67.1
-
-# Optional / utilities
-python-dateutil==2.9.0.post0
-six==1.17.0
-typing_extensions==4.15.0
