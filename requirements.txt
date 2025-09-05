@@ -1,13 +1,9 @@
-# PyTorch CPU for Python 3.13
-torch==2.9.0
-torchvision==0.15.2
-torchaudio==2.9.0
+torch==2.8.0+cpu
+torchvision==0.23.0+cpu
+torchaudio==2.8.0
 -f https://download.pytorch.org/whl/torch_stable.html
 
-# Streamlit
 streamlit==1.49.1
-
-# ML / Data
 numpy==2.3.2
 pandas==2.3.2
 scikit-learn==1.7.1
