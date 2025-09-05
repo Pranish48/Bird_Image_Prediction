@@ -2,5 +2,6 @@ streamlit==1.27.0
 torch==2.0.1
 torchvision==0.15.2
 torchaudio==2.0.2
-Pillow==10.0.0
+pillow==10.0.0
 numpy==1.26.4
+pandas==2.1.0
